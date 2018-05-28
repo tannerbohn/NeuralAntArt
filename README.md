@@ -1,6 +1,8 @@
 # NeuralAntArt
 Evolve ants that observe surrounding colours to determine new colour to deposit and where to move.
 
+<a href="https://github.com/tannerbohn/NeuralAntArt/blob/master/output/2018May28-03:27:57.png" target="_blank"><img src="https://github.com/tannerbohn/NeuralAntArt/blob/master/output/2018May28-03:27:57.png" alt="Example" width="750" height="750" border="2" /></a>
+
 ## How it Works
 ... 
 
