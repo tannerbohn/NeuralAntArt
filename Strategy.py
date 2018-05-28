@@ -78,17 +78,6 @@ class Strategy:
 
 	def getRandomModel(self):
 
-		# map from:
-		#  - prey (x, y) location
-		#  - predator (x, y) direction
-		#  - predator distance
-		# to:
-		#  - up/down/left/right/stay
-
-		# 4 inputs in [0, 1]
-		# 2 outputs in [-1, 1
-
-
 		input_layer = Input(shape=(30,)) # see getAction() what what each is
 		dense_1 = Dense(32, activation='tanh')(input_layer)
 		dense_1 = Dense(32, activation='tanh')(dense_1)
